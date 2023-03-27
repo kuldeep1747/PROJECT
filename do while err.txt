@@ -1,0 +1,27 @@
+package DACASSI;
+
+/*Write a do-while loop that asks the user to
+ *  enter two numbers. The numbers should be added 
+ *  and the sum displayed. The loop should ask the
+ *   user whether he or she wishes to perform the operation again. 
+ * If so, the loop should repeat; otherwise it should terminate.(while loop)*/
+import java.util.*;
+public class Assilab3 {
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		int a,b,c;
+		float d;
+		a=s.nextInt();
+		do
+		c=a+b;	
+			System.out.println("sum two number " +c);
+			
+			while(d==c)
+				System.out.println("");
+		
+		
+
+	}
+
+}
